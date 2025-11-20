@@ -46,7 +46,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <!-- Contact Form -->
             <div>
                 <h2 class="text-3xl font-bold text-gray-900 mb-6">Send us a Message</h2>
-                <form action="contact.php" method="POST" class="space-y-6">
+                <form action="/contact" method="POST" class="space-y-6">
                     <div>
                         <label for="name" class="block text-gray-700 text-sm font-medium mb-2">
                             Full Name <span class="text-red-500">*</span>

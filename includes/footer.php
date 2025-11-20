@@ -16,11 +16,11 @@
                 <div>
                     <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
                     <ul class="space-y-2">
-                        <li><a href="index.php" class="text-gray-400 hover:text-blue-600 transition">Home</a></li>
-                        <li><a href="about.php" class="text-gray-400 hover:text-blue-600 transition">About Us</a></li>
-                        <li><a href="service.php" class="text-gray-400 hover:text-blue-600 transition">Services</a></li>
-                        <li><a href="contact.php" class="text-gray-400 hover:text-blue-600 transition">Contact</a></li>
-                        <li><a href="index.php#book" class="text-gray-400 hover:text-blue-600 transition">Book Now</a></li>
+                        <li><a href="/" class="text-gray-400 hover:text-blue-600 transition">Home</a></li>
+                        <li><a href="/about" class="text-gray-400 hover:text-blue-600 transition">About Us</a></li>
+                        <li><a href="/service" class="text-gray-400 hover:text-blue-600 transition">Services</a></li>
+                        <li><a href="/contact" class="text-gray-400 hover:text-blue-600 transition">Contact</a></li>
+                        <li><a href="/#book" class="text-gray-400 hover:text-blue-600 transition">Book Now</a></li>
                     </ul>
                 </div>
                 

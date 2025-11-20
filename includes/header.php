@@ -59,10 +59,10 @@
                         $currentPage = basename($_SERVER['PHP_SELF'], '.php');
                         if ($currentPage == 'index') $currentPage = '';
                         ?>
-                        <a href="/" class="text-gray-900 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition <?php echo ($currentPage == '' || $currentPage == 'index') ? 'text-blue-600 border-b-2 border-blue-600' : ''; ?>">Home</a>
-                        <a href="/about" class="text-gray-900 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition <?php echo $currentPage == 'about' ? 'text-blue-600 border-b-2 border-blue-600' : ''; ?>">About</a>
-                        <a href="/service" class="text-gray-900 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition <?php echo $currentPage == 'service' ? 'text-blue-600 border-b-2 border-blue-600' : ''; ?>">Services</a>
-                        <a href="/contact" class="text-gray-900 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition <?php echo $currentPage == 'contact' ? 'text-blue-600 border-b-2 border-blue-600' : ''; ?>">Contact</a>
+                        <a href="/" class="text-gray-900 hover:text-blue-600 px-3 py-2 text-sm font-medium transition <?php echo ($currentPage == '' || $currentPage == 'index') ? 'text-blue-600 border-b-2 border-blue-600' : ''; ?>">Home</a>
+                        <a href="/about" class="text-gray-900 hover:text-blue-600 px-3 py-2 text-sm font-medium transition <?php echo $currentPage == 'about' ? 'text-blue-600 border-b-2 border-blue-600' : ''; ?>">About</a>
+                        <a href="/service" class="text-gray-900 hover:text-blue-600 px-3 py-2 text-sm font-medium transition <?php echo $currentPage == 'service' ? 'text-blue-600 border-b-2 border-blue-600' : ''; ?>">Services</a>
+                        <a href="/contact" class="text-gray-900 hover:text-blue-600 px-3 py-2 text-sm font-medium transition <?php echo $currentPage == 'contact' ? 'text-blue-600 border-b-2 border-blue-600' : ''; ?>">Contact</a>
                         <a href="/#book" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-md text-sm font-medium transition">Book Now</a>
                     </div>
                 </div>

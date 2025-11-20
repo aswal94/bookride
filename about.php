@@ -147,16 +147,6 @@ include 'includes/header.php';
                     <i class="fas fa-check-circle text-blue-600 text-2xl"></i>
                 </div>
                 <div>
-                    <h3 class="text-xl font-semibold mb-2">Real-Time Tracking</h3>
-                    <p class="text-gray-600">Track your ride in real-time and stay informed about arrival times.</p>
-                </div>
-            </div>
-            
-            <div class="flex items-start space-x-4">
-                <div class="bg-blue-100 p-3 rounded-lg">
-                    <i class="fas fa-check-circle text-blue-600 text-2xl"></i>
-                </div>
-                <div>
                     <h3 class="text-xl font-semibold mb-2">Easy Booking</h3>
                     <p class="text-gray-600">Simple booking process with instant confirmation and flexible scheduling.</p>
                 </div>

@@ -122,14 +122,6 @@ include 'includes/header.php';
             
             <div class="text-center p-6 rounded-lg hover:shadow-lg transition">
                 <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <i class="fas fa-route text-blue-600 text-2xl"></i>
-                </div>
-                <h3 class="text-xl font-semibold mb-2">Real-time Tracking</h3>
-                <p class="text-gray-600">Track your ride in real-time and know exactly when your cab arrives.</p>
-            </div>
-            
-            <div class="text-center p-6 rounded-lg hover:shadow-lg transition">
-                <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                     <i class="fas fa-user-tie text-blue-600 text-2xl"></i>
                 </div>
                 <h3 class="text-xl font-semibold mb-2">Experienced Drivers</h3>
@@ -154,7 +146,7 @@ include 'includes/header.php';
                 </div>
                 <div class="p-6">
                     <h3 class="text-xl font-semibold mb-2">Airport Transfer</h3>
-                    <p class="text-gray-600 text-sm">Reliable airport pickup and drop service with flight tracking.</p>
+                    <p class="text-gray-600 text-sm">Reliable airport pickup and drop service.</p>
                 </div>
             </div>
             
@@ -197,29 +189,6 @@ include 'includes/header.php';
     </div>
 </section>
 
-<!-- Stats Section -->
-<section class="py-16 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            <div>
-                <div class="text-4xl md:text-5xl font-bold mb-2">10K+</div>
-                <div class="text-blue-100">Happy Customers</div>
-            </div>
-            <div>
-                <div class="text-4xl md:text-5xl font-bold mb-2">500+</div>
-                <div class="text-blue-100">Vehicles</div>
-            </div>
-            <div>
-                <div class="text-4xl md:text-5xl font-bold mb-2">50+</div>
-                <div class="text-blue-100">Cities</div>
-            </div>
-            <div>
-                <div class="text-4xl md:text-5xl font-bold mb-2">24/7</div>
-                <div class="text-blue-100">Support</div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <?php include 'includes/footer.php'; ?>
 

@@ -23,13 +23,9 @@ include 'includes/header.php';
                 <div class="p-6">
                     <h3 class="text-2xl font-bold text-gray-900 mb-3">Airport Transfer</h3>
                     <p class="text-gray-600 mb-4">
-                        Reliable airport pickup and drop service with real-time flight tracking. Never miss a flight or wait unnecessarily.
+                        Reliable airport pickup and drop service. Never miss a flight or wait unnecessarily.
                     </p>
                     <ul class="space-y-2 text-gray-600 mb-4">
-                        <li class="flex items-center">
-                            <i class="fas fa-check text-blue-600 mr-2"></i>
-                            Flight tracking
-                        </li>
                         <li class="flex items-center">
                             <i class="fas fa-check text-blue-600 mr-2"></i>
                             Meet & greet service

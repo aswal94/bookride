@@ -47,7 +47,7 @@
             <div class="flex justify-between items-center h-16">
                 <!-- Logo -->
                 <div class="flex-shrink-0">
-                    <a href="index.php" class="text-2xl font-bold text-orange-600">
+                    <a href="index.php" class="text-2xl font-bold text-blue-600">
                         <i class="fas fa-taxi mr-2"></i>BookRide
                     </a>
                 </div>
@@ -55,17 +55,17 @@
                 <!-- Desktop Navigation -->
                 <div class="hidden md:block">
                     <div class="ml-10 flex items-baseline space-x-8">
-                        <a href="index.php" class="text-gray-900 hover:text-orange-600 px-3 py-2 rounded-md text-sm font-medium transition <?php echo basename($_SERVER['PHP_SELF']) == 'index.php' ? 'text-orange-600 border-b-2 border-orange-600' : ''; ?>">Home</a>
-                        <a href="about.php" class="text-gray-900 hover:text-orange-600 px-3 py-2 rounded-md text-sm font-medium transition <?php echo basename($_SERVER['PHP_SELF']) == 'about.php' ? 'text-orange-600 border-b-2 border-orange-600' : ''; ?>">About</a>
-                        <a href="service.php" class="text-gray-900 hover:text-orange-600 px-3 py-2 rounded-md text-sm font-medium transition <?php echo basename($_SERVER['PHP_SELF']) == 'service.php' ? 'text-orange-600 border-b-2 border-orange-600' : ''; ?>">Services</a>
-                        <a href="contact.php" class="text-gray-900 hover:text-orange-600 px-3 py-2 rounded-md text-sm font-medium transition <?php echo basename($_SERVER['PHP_SELF']) == 'contact.php' ? 'text-orange-600 border-b-2 border-orange-600' : ''; ?>">Contact</a>
-                        <a href="index.php#book" class="bg-orange-600 hover:bg-orange-700 text-white px-6 py-2 rounded-md text-sm font-medium transition">Book Now</a>
+                        <a href="index.php" class="text-gray-900 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition <?php echo basename($_SERVER['PHP_SELF']) == 'index.php' ? 'text-blue-600 border-b-2 border-blue-600' : ''; ?>">Home</a>
+                        <a href="about.php" class="text-gray-900 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition <?php echo basename($_SERVER['PHP_SELF']) == 'about.php' ? 'text-blue-600 border-b-2 border-blue-600' : ''; ?>">About</a>
+                        <a href="service.php" class="text-gray-900 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition <?php echo basename($_SERVER['PHP_SELF']) == 'service.php' ? 'text-blue-600 border-b-2 border-blue-600' : ''; ?>">Services</a>
+                        <a href="contact.php" class="text-gray-900 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition <?php echo basename($_SERVER['PHP_SELF']) == 'contact.php' ? 'text-blue-600 border-b-2 border-blue-600' : ''; ?>">Contact</a>
+                        <a href="index.php#book" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-md text-sm font-medium transition">Book Now</a>
                     </div>
                 </div>
                 
                 <!-- Mobile menu button -->
                 <div class="md:hidden">
-                    <button type="button" class="mobile-menu-button bg-gray-100 inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-orange-600 focus:outline-none">
+                    <button type="button" class="mobile-menu-button bg-gray-100 inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-blue-600 focus:outline-none">
                         <i class="fas fa-bars text-xl"></i>
                     </button>
                 </div>
@@ -75,11 +75,11 @@
         <!-- Mobile Navigation -->
         <div class="hidden mobile-menu md:hidden">
             <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-gray-50">
-                <a href="index.php" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-orange-50 hover:text-orange-600">Home</a>
-                <a href="about.php" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-orange-50 hover:text-orange-600">About</a>
-                <a href="service.php" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-orange-50 hover:text-orange-600">Services</a>
-                <a href="contact.php" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-orange-50 hover:text-orange-600">Contact</a>
-                <a href="index.php#book" class="block px-3 py-2 rounded-md text-base font-medium bg-orange-600 text-white">Book Now</a>
+                <a href="index.php" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-blue-50 hover:text-blue-600">Home</a>
+                <a href="about.php" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-blue-50 hover:text-blue-600">About</a>
+                <a href="service.php" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-blue-50 hover:text-blue-600">Services</a>
+                <a href="contact.php" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-blue-50 hover:text-blue-600">Contact</a>
+                <a href="index.php#book" class="block px-3 py-2 rounded-md text-base font-medium bg-blue-600 text-white">Book Now</a>
             </div>
         </div>
     </nav>

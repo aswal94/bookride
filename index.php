@@ -4,15 +4,18 @@ include 'includes/header.php';
 ?>
 
 <!-- Hero Section with Booking Form -->
-<section class="relative bg-gradient-to-r from-orange-600 to-red-600 text-white py-20">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<section class="relative bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20 overflow-hidden">
+    <div class="absolute inset-0 opacity-20">
+        <img src="https://images.pexels.com/photos/164634/pexels-photo-164634.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Taxi" class="w-full h-full object-cover">
+    </div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <!-- Hero Content -->
             <div>
                 <h1 class="text-4xl md:text-5xl font-bold mb-6">
                     Book Your Ride <br> Anytime, Anywhere
                 </h1>
-                <p class="text-xl mb-8 text-orange-100">
+                <p class="text-xl mb-8 text-blue-100">
                     Safe, reliable, and affordable taxi services at your doorstep. Experience comfort like never before.
                 </p>
                 <div class="flex flex-wrap gap-4">
@@ -37,37 +40,37 @@ include 'includes/header.php';
                 <form action="#" method="POST" class="space-y-4">
                     <div>
                         <label class="block text-gray-700 text-sm font-medium mb-2">
-                            <i class="fas fa-user text-orange-600 mr-2"></i>Name
+                            <i class="fas fa-user text-blue-600 mr-2"></i>Name
                         </label>
                         <input type="text" name="name" placeholder="Enter your name" required
-                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-600 focus:border-transparent">
+                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent">
                     </div>
                     
                     <div>
                         <label class="block text-gray-700 text-sm font-medium mb-2">
-                            <i class="fas fa-phone text-orange-600 mr-2"></i>Phone Number
+                            <i class="fas fa-phone text-blue-600 mr-2"></i>Phone Number
                         </label>
                         <input type="tel" name="number" placeholder="Enter your phone number" required
-                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-600 focus:border-transparent">
+                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent">
                     </div>
                     
                     <div>
                         <label class="block text-gray-700 text-sm font-medium mb-2">
-                            <i class="fas fa-map-marker-alt text-orange-600 mr-2"></i>Pickup Location
+                            <i class="fas fa-map-marker-alt text-blue-600 mr-2"></i>Pickup Location
                         </label>
                         <input type="text" name="pickup" placeholder="Enter pickup location" required
-                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-600 focus:border-transparent">
+                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent">
                     </div>
                     
                     <div>
                         <label class="block text-gray-700 text-sm font-medium mb-2">
-                            <i class="fas fa-calendar text-orange-600 mr-2"></i>Date
+                            <i class="fas fa-calendar text-blue-600 mr-2"></i>Date
                         </label>
                         <input type="date" name="date" required
-                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-600 focus:border-transparent">
+                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent">
                     </div>
                     
-                    <button type="submit" class="w-full bg-orange-600 hover:bg-orange-700 text-white font-bold py-3 px-6 rounded-lg transition transform hover:scale-105">
+                    <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition transform hover:scale-105">
                         <i class="fas fa-search mr-2"></i>Search Rides
                     </button>
                 </form>
@@ -86,48 +89,48 @@ include 'includes/header.php';
         
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div class="text-center p-6 rounded-lg hover:shadow-lg transition">
-                <div class="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <i class="fas fa-shield-alt text-orange-600 text-2xl"></i>
+                <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-shield-alt text-blue-600 text-2xl"></i>
                 </div>
                 <h3 class="text-xl font-semibold mb-2">Safe & Secure</h3>
                 <p class="text-gray-600">All our drivers are verified and vehicles are regularly maintained for your safety.</p>
             </div>
             
             <div class="text-center p-6 rounded-lg hover:shadow-lg transition">
-                <div class="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <i class="fas fa-clock text-orange-600 text-2xl"></i>
+                <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-clock text-blue-600 text-2xl"></i>
                 </div>
                 <h3 class="text-xl font-semibold mb-2">24/7 Service</h3>
                 <p class="text-gray-600">Available round the clock to serve you whenever you need us.</p>
             </div>
             
             <div class="text-center p-6 rounded-lg hover:shadow-lg transition">
-                <div class="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <i class="fas fa-dollar-sign text-orange-600 text-2xl"></i>
+                <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-dollar-sign text-blue-600 text-2xl"></i>
                 </div>
                 <h3 class="text-xl font-semibold mb-2">Affordable Prices</h3>
                 <p class="text-gray-600">Competitive pricing with transparent fare calculation, no hidden charges.</p>
             </div>
             
             <div class="text-center p-6 rounded-lg hover:shadow-lg transition">
-                <div class="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <i class="fas fa-mobile-alt text-orange-600 text-2xl"></i>
+                <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-mobile-alt text-blue-600 text-2xl"></i>
                 </div>
                 <h3 class="text-xl font-semibold mb-2">Easy Booking</h3>
                 <p class="text-gray-600">Simple and quick booking process with instant confirmation.</p>
             </div>
             
             <div class="text-center p-6 rounded-lg hover:shadow-lg transition">
-                <div class="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <i class="fas fa-route text-orange-600 text-2xl"></i>
+                <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-route text-blue-600 text-2xl"></i>
                 </div>
                 <h3 class="text-xl font-semibold mb-2">Real-time Tracking</h3>
                 <p class="text-gray-600">Track your ride in real-time and know exactly when your cab arrives.</p>
             </div>
             
             <div class="text-center p-6 rounded-lg hover:shadow-lg transition">
-                <div class="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <i class="fas fa-user-tie text-orange-600 text-2xl"></i>
+                <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-user-tie text-blue-600 text-2xl"></i>
                 </div>
                 <h3 class="text-xl font-semibold mb-2">Experienced Drivers</h3>
                 <p class="text-gray-600">Professional and courteous drivers with years of experience.</p>
@@ -146,8 +149,8 @@ include 'includes/header.php';
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition transform hover:-translate-y-1">
-                <div class="bg-gradient-to-r from-orange-500 to-red-500 h-32 flex items-center justify-center">
-                    <i class="fas fa-plane text-white text-4xl"></i>
+                <div class="h-48 overflow-hidden">
+                    <img src="https://images.pexels.com/photos/164634/pexels-photo-164634.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Airport Transfer" class="w-full h-full object-cover hover:scale-110 transition duration-300">
                 </div>
                 <div class="p-6">
                     <h3 class="text-xl font-semibold mb-2">Airport Transfer</h3>
@@ -156,8 +159,8 @@ include 'includes/header.php';
             </div>
             
             <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition transform hover:-translate-y-1">
-                <div class="bg-gradient-to-r from-orange-500 to-red-500 h-32 flex items-center justify-center">
-                    <i class="fas fa-road text-white text-4xl"></i>
+                <div class="h-48 overflow-hidden">
+                    <img src="https://images.pexels.com/photos/3802508/pexels-photo-3802508.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Outstation Rides" class="w-full h-full object-cover hover:scale-110 transition duration-300">
                 </div>
                 <div class="p-6">
                     <h3 class="text-xl font-semibold mb-2">Outstation Rides</h3>
@@ -166,8 +169,8 @@ include 'includes/header.php';
             </div>
             
             <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition transform hover:-translate-y-1">
-                <div class="bg-gradient-to-r from-orange-500 to-red-500 h-32 flex items-center justify-center">
-                    <i class="fas fa-city text-white text-4xl"></i>
+                <div class="h-48 overflow-hidden">
+                    <img src="https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg?auto=compress&cs=tinysrgb&w=800" alt="City Rides" class="w-full h-full object-cover hover:scale-110 transition duration-300">
                 </div>
                 <div class="p-6">
                     <h3 class="text-xl font-semibold mb-2">City Rides</h3>
@@ -176,8 +179,8 @@ include 'includes/header.php';
             </div>
             
             <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition transform hover:-translate-y-1">
-                <div class="bg-gradient-to-r from-orange-500 to-red-500 h-32 flex items-center justify-center">
-                    <i class="fas fa-crown text-white text-4xl"></i>
+                <div class="h-48 overflow-hidden">
+                    <img src="https://images.pexels.com/photos/1149137/pexels-photo-1149137.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Luxury Rides" class="w-full h-full object-cover hover:scale-110 transition duration-300">
                 </div>
                 <div class="p-6">
                     <h3 class="text-xl font-semibold mb-2">Luxury Rides</h3>
@@ -187,7 +190,7 @@ include 'includes/header.php';
         </div>
         
         <div class="text-center mt-8">
-            <a href="service.php" class="inline-block bg-orange-600 hover:bg-orange-700 text-white font-bold py-3 px-8 rounded-lg transition">
+            <a href="service.php" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition">
                 View All Services
             </a>
         </div>
@@ -195,24 +198,24 @@ include 'includes/header.php';
 </section>
 
 <!-- Stats Section -->
-<section class="py-16 bg-gradient-to-r from-orange-600 to-red-600 text-white">
+<section class="py-16 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
                 <div class="text-4xl md:text-5xl font-bold mb-2">10K+</div>
-                <div class="text-orange-100">Happy Customers</div>
+                <div class="text-blue-100">Happy Customers</div>
             </div>
             <div>
                 <div class="text-4xl md:text-5xl font-bold mb-2">500+</div>
-                <div class="text-orange-100">Vehicles</div>
+                <div class="text-blue-100">Vehicles</div>
             </div>
             <div>
                 <div class="text-4xl md:text-5xl font-bold mb-2">50+</div>
-                <div class="text-orange-100">Cities</div>
+                <div class="text-blue-100">Cities</div>
             </div>
             <div>
                 <div class="text-4xl md:text-5xl font-bold mb-2">24/7</div>
-                <div class="text-orange-100">Support</div>
+                <div class="text-blue-100">Support</div>
             </div>
         </div>
     </div>

@@ -44,8 +44,17 @@
                 </div>
             </div>
             
-            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-                <p>&copy; <?php echo date('Y'); ?> BookRide. All rights reserved.</p>
+            <div class="border-t border-gray-800 mt-8 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+                    <p class="text-gray-400">&copy; <?php echo date('Y'); ?> BookRide. All rights reserved.</p>
+                    <div class="flex flex-wrap justify-center gap-4 text-gray-400 text-sm">
+                        <a href="/privacy-policy" class="hover:text-blue-600 transition">Privacy Policy</a>
+                        <span class="text-gray-600">|</span>
+                        <a href="/terms-conditions" class="hover:text-blue-600 transition">Terms & Conditions</a>
+                        <span class="text-gray-600">|</span>
+                        <a href="/refund-policy" class="hover:text-blue-600 transition">Refund Policy</a>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>

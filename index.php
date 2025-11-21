@@ -139,7 +139,7 @@ include 'includes/header.php';
             <p class="text-gray-600 text-lg">Explore our range of taxi services</p>
         </div>
         
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition transform hover:-translate-y-1">
                 <div class="h-48 overflow-hidden">
                     <img src="https://images.pexels.com/photos/164634/pexels-photo-164634.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Airport Transfer" class="w-full h-full object-cover hover:scale-110 transition duration-300">
@@ -152,31 +152,21 @@ include 'includes/header.php';
             
             <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition transform hover:-translate-y-1">
                 <div class="h-48 overflow-hidden">
-                    <img src="https://images.pexels.com/photos/3802508/pexels-photo-3802508.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Outstation Rides" class="w-full h-full object-cover hover:scale-110 transition duration-300">
+                <img src="https://images.pexels.com/photos/164634/pexels-photo-164634.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Airport Transfer" class="w-full h-full object-cover hover:scale-110 transition duration-300">
                 </div>
                 <div class="p-6">
                     <h3 class="text-xl font-semibold mb-2">Outstation Rides</h3>
-                    <p class="text-gray-600 text-sm">Long-distance trips with comfortable vehicles and experienced drivers.</p>
+                    <p class="text-gray-600 text-sm">Long-distance trips with comfortable vehicles like Innova & Ertiga and experienced drivers.</p>
                 </div>
             </div>
             
             <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition transform hover:-translate-y-1">
                 <div class="h-48 overflow-hidden">
-                    <img src="https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg?auto=compress&cs=tinysrgb&w=800" alt="City Rides" class="w-full h-full object-cover hover:scale-110 transition duration-300">
+                <img src="https://images.pexels.com/photos/164634/pexels-photo-164634.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Airport Transfer" class="w-full h-full object-cover hover:scale-110 transition duration-300">
                 </div>
                 <div class="p-6">
                     <h3 class="text-xl font-semibold mb-2">City Rides</h3>
-                    <p class="text-gray-600 text-sm">Quick and efficient city rides for your daily commute needs.</p>
-                </div>
-            </div>
-            
-            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition transform hover:-translate-y-1">
-                <div class="h-48 overflow-hidden">
-                    <img src="https://images.pexels.com/photos/1149137/pexels-photo-1149137.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Luxury Rides" class="w-full h-full object-cover hover:scale-110 transition duration-300">
-                </div>
-                <div class="p-6">
-                    <h3 class="text-xl font-semibold mb-2">Luxury Rides</h3>
-                    <p class="text-gray-600 text-sm">Premium vehicles for special occasions and business travel.</p>
+                    <p class="text-gray-600 text-sm">Quick and efficient city rides with Swift and other compact cars for your daily commute needs.</p>
                 </div>
             </div>
         </div>

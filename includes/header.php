@@ -56,8 +56,15 @@
                 <div class="hidden md:block">
                     <div class="ml-10 flex items-baseline space-x-8">
                         <?php 
-                        $currentPage = basename($_SERVER['PHP_SELF'], '.php');
-                        if ($currentPage == 'index') $currentPage = '';
+                        // Get current page from REQUEST_URI
+                        $requestUri = $_SERVER['REQUEST_URI'];
+                        $requestPath = parse_url($requestUri, PHP_URL_PATH);
+                        $requestPath = trim($requestPath, '/');
+                        $currentPage = '';
+                        if (!empty($requestPath)) {
+                            $pathParts = explode('/', $requestPath);
+                            $currentPage = $pathParts[0]; // Get first part of path
+                        }
                         ?>
                         <a href="/" class="text-gray-900 hover:text-blue-600 px-3 py-2 text-sm font-medium transition <?php echo ($currentPage == '' || $currentPage == 'index') ? 'text-blue-600 border-b-2 border-blue-600' : ''; ?>">Home</a>
                         <a href="/about" class="text-gray-900 hover:text-blue-600 px-3 py-2 text-sm font-medium transition <?php echo $currentPage == 'about' ? 'text-blue-600 border-b-2 border-blue-600' : ''; ?>">About</a>
@@ -79,10 +86,21 @@
         <!-- Mobile Navigation -->
         <div class="hidden mobile-menu md:hidden">
             <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-gray-50">
-                <a href="/" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-blue-50 hover:text-blue-600">Home</a>
-                <a href="/about" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-blue-50 hover:text-blue-600">About</a>
-                <a href="/service" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-blue-50 hover:text-blue-600">Services</a>
-                <a href="/contact" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-blue-50 hover:text-blue-600">Contact</a>
+                <?php 
+                // Get current page from REQUEST_URI
+                $requestUri = $_SERVER['REQUEST_URI'];
+                $requestPath = parse_url($requestUri, PHP_URL_PATH);
+                $requestPath = trim($requestPath, '/');
+                $currentPage = '';
+                if (!empty($requestPath)) {
+                    $pathParts = explode('/', $requestPath);
+                    $currentPage = $pathParts[0]; // Get first part of path
+                }
+                ?>
+                <a href="/" class="block px-3 py-2 rounded-md text-base font-medium <?php echo ($currentPage == '' || $currentPage == 'index') ? 'text-blue-600 bg-blue-50' : 'text-gray-900 hover:bg-blue-50 hover:text-blue-600'; ?>">Home</a>
+                <a href="/about" class="block px-3 py-2 rounded-md text-base font-medium <?php echo $currentPage == 'about' ? 'text-blue-600 bg-blue-50' : 'text-gray-900 hover:bg-blue-50 hover:text-blue-600'; ?>">About</a>
+                <a href="/service" class="block px-3 py-2 rounded-md text-base font-medium <?php echo $currentPage == 'service' ? 'text-blue-600 bg-blue-50' : 'text-gray-900 hover:bg-blue-50 hover:text-blue-600'; ?>">Services</a>
+                <a href="/contact" class="block px-3 py-2 rounded-md text-base font-medium <?php echo $currentPage == 'contact' ? 'text-blue-600 bg-blue-50' : 'text-gray-900 hover:bg-blue-50 hover:text-blue-600'; ?>">Contact</a>
                 <a href="/#book" class="block px-3 py-2 rounded-md text-base font-medium bg-blue-600 text-white">Book Now</a>
             </div>
         </div>

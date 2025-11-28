@@ -1,5 +1,7 @@
 <?php 
-$pageTitle = "Home";
+session_start();
+require_once '../includes/process_booking.php';
+$pageTitle = "Delhi Dehradun Taxi Service";
 include '../includes/header.php'; 
 ?>
 

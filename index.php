@@ -1,4 +1,6 @@
 <?php 
+session_start();
+require_once 'includes/process_booking.php';
 $pageTitle = "Home";
 include 'includes/header.php'; 
 ?>

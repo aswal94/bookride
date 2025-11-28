@@ -5,7 +5,8 @@
                 <!-- Company Info -->
                 <div class="col-span-1 md:col-span-2">
                     <h3 class="text-2xl font-bold text-yellow-600 mb-4">
-                        <i class="fas fa-taxi mr-2"></i>BookRide
+                        <!-- <i class="fas fa-taxi mr-2"></i> -->
+                        <img src="/images/logo.png" alt="BookRide Logo" width="150px" />
                     </h3>
                     <p class="text-gray-400 mb-4">
                         Your trusted partner taxi services. We're committed to making your journey seamless.

@@ -4,10 +4,10 @@ include '../includes/header.php';
 ?>
 
 <!-- Page Header -->
-<section class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
+<section class="bg-gradient-to-r from-yellow-600 to-yellow-800 text-white py-16">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 class="text-4xl md:text-5xl font-bold mb-4">Terms & Conditions</h1>
-        <p class="text-xl text-blue-100">Please read these terms carefully before using our services</p>
+        <p class="text-xl text-yellow-100">Please read these terms carefully before using our services</p>
     </div>
 </section>
 
@@ -142,7 +142,7 @@ include '../includes/header.php';
                 <p class="text-gray-600 mb-4 leading-relaxed">
                     For any questions or concerns regarding these Terms and Conditions, please contact us:
                 </p>
-                <div class="bg-blue-50 p-6 rounded-lg">
+                <div class="bg-yellow-50 p-6 rounded-lg">
                     <p class="text-gray-700 mb-2"><strong>Email:</strong> legal@bookride.in</p>
                     <p class="text-gray-700 mb-2"><strong>Phone:</strong> (+91)925 800 2554</p>
                     <p class="text-gray-700"><strong>Address:</strong> Raipur, Dehradun, Uttarakhand, 248001</p>

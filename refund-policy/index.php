@@ -4,10 +4,10 @@ include '../includes/header.php';
 ?>
 
 <!-- Page Header -->
-<section class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
+<section class="bg-gradient-to-r from-yellow-600 to-yellow-800 text-white py-16">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 class="text-4xl md:text-5xl font-bold mb-4">Refund Policy</h1>
-        <p class="text-xl text-blue-100">Our commitment to fair and transparent refunds</p>
+        <p class="text-xl text-yellow-100">Our commitment to fair and transparent refunds</p>
     </div>
 </section>
 
@@ -53,7 +53,7 @@ include '../includes/header.php';
             <div class="mb-8">
                 <h2 class="text-3xl font-bold text-gray-900 mb-4">3. Refund Scenarios</h2>
                 
-                <div class="bg-blue-50 p-6 rounded-lg mb-4">
+                <div class="bg-yellow-50 p-6 rounded-lg mb-4">
                     <h3 class="text-2xl font-semibold text-gray-800 mb-3">3.1 Full Refund Scenarios</h3>
                     <ul class="list-disc list-inside text-gray-700 space-y-2">
                         <li>Driver cancellation or no-show</li>
@@ -166,7 +166,7 @@ include '../includes/header.php';
                 <p class="text-gray-600 mb-4 leading-relaxed">
                     For any questions or assistance regarding refunds, please contact us:
                 </p>
-                <div class="bg-blue-50 p-6 rounded-lg">
+                <div class="bg-yellow-50 p-6 rounded-lg">
                     <p class="text-gray-700 mb-2"><strong>Email:</strong> support@bookride.in</p>
                     <p class="text-gray-700 mb-2"><strong>Phone:</strong> (+91)925 800 2554</p>
                     <p class="text-gray-700 mb-2"><strong>Support Hours:</strong> 24/7</p>

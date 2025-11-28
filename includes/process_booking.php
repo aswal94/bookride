@@ -22,10 +22,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name']) && isset($_PO
             <style>
                 body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
                 .container { max-width: 600px; margin: 0 auto; padding: 20px; }
-                .header { background-color: #2563eb; color: white; padding: 20px; text-align: center; }
+                .header { background-color: #eab308; color: white; padding: 20px; text-align: center; }
                 .content { background-color: #f9fafb; padding: 20px; }
                 .field { margin-bottom: 15px; }
-                .label { font-weight: bold; color: #2563eb; }
+                .label { font-weight: bold; color: #eab308; }
                 .value { margin-top: 5px; }
             </style>
         </head>

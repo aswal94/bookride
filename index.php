@@ -6,7 +6,7 @@ include 'includes/header.php';
 ?>
 
 <!-- Hero Section with Booking Form -->
-<section class="relative bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20 overflow-hidden">
+<section class="relative bg-gradient-to-r from-gray-600 to-gray-800 text-white py-20 overflow-hidden">
     <div class="absolute inset-0 opacity-20">
         <img src="https://images.pexels.com/photos/164634/pexels-photo-164634.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Taxi" class="w-full h-full object-cover">
     </div>
@@ -17,7 +17,7 @@ include 'includes/header.php';
                 <h1 class="text-4xl md:text-5xl font-bold mb-6">
                     Book Your Ride <br> Anytime, Anywhere
                 </h1>
-                <p class="text-xl mb-8 text-blue-100">
+                <p class="text-xl mb-8 text-yellow-100">
                     Safe, reliable, and affordable taxi services at your doorstep. Experience comfort like never before.
                 </p>
                 <div class="flex flex-wrap gap-4">
@@ -52,40 +52,40 @@ include 'includes/header.php';
         
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div class="text-center p-6 rounded-lg hover:shadow-lg transition">
-                <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <i class="fas fa-shield-alt text-blue-600 text-2xl"></i>
+                <div class="bg-yellow-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-shield-alt text-yellow-600 text-2xl"></i>
                 </div>
                 <h3 class="text-xl font-semibold mb-2">Safe & Secure</h3>
                 <p class="text-gray-600">All our drivers are verified and vehicles are regularly maintained for your safety.</p>
             </div>
             
             <div class="text-center p-6 rounded-lg hover:shadow-lg transition">
-                <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <i class="fas fa-clock text-blue-600 text-2xl"></i>
+                <div class="bg-yellow-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-clock text-yellow-600 text-2xl"></i>
                 </div>
                 <h3 class="text-xl font-semibold mb-2">24/7 Service</h3>
                 <p class="text-gray-600">Available round the clock to serve you whenever you need us.</p>
             </div>
             
             <div class="text-center p-6 rounded-lg hover:shadow-lg transition">
-                <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <i class="fas fa-dollar-sign text-blue-600 text-2xl"></i>
+                <div class="bg-yellow-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-dollar-sign text-yellow-600 text-2xl"></i>
                 </div>
                 <h3 class="text-xl font-semibold mb-2">Affordable Prices</h3>
                 <p class="text-gray-600">Competitive pricing with transparent fare calculation, no hidden charges.</p>
             </div>
             
             <div class="text-center p-6 rounded-lg hover:shadow-lg transition">
-                <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <i class="fas fa-mobile-alt text-blue-600 text-2xl"></i>
+                <div class="bg-yellow-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-mobile-alt text-yellow-600 text-2xl"></i>
                 </div>
                 <h3 class="text-xl font-semibold mb-2">Easy Booking</h3>
                 <p class="text-gray-600">Simple and quick booking process with instant confirmation.</p>
             </div>
             
             <div class="text-center p-6 rounded-lg hover:shadow-lg transition">
-                <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <i class="fas fa-user-tie text-blue-600 text-2xl"></i>
+                <div class="bg-yellow-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-user-tie text-yellow-600 text-2xl"></i>
                 </div>
                 <h3 class="text-xl font-semibold mb-2">Experienced Drivers</h3>
                 <p class="text-gray-600">Professional and courteous drivers with years of experience.</p>
@@ -135,7 +135,7 @@ include 'includes/header.php';
         </div>
         
         <div class="text-center mt-8">
-            <a href="/service" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition">
+            <a href="/service" class="inline-block bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-3 px-8 rounded-lg transition">
                 View All Services
             </a>
         </div>

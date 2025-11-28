@@ -4,10 +4,10 @@ include 'includes/header.php';
 ?>
 
 <!-- Page Header -->
-<section class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
+<section class="bg-gradient-to-r from-yellow-600 to-yellow-800 text-white py-16">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 class="text-4xl md:text-5xl font-bold mb-4">Our Services</h1>
-        <p class="text-xl text-blue-100">Comprehensive taxi solutions for all your travel needs</p>
+        <p class="text-xl text-yellow-100">Comprehensive taxi solutions for all your travel needs</p>
     </div>
 </section>
 
@@ -27,15 +27,15 @@ include 'includes/header.php';
                     </p>
                     <ul class="space-y-2 text-gray-600 mb-4">
                         <li class="flex items-center">
-                            <i class="fas fa-check text-blue-600 mr-2"></i>
+                            <i class="fas fa-check text-yellow-600 mr-2"></i>
                             Meet & greet service
                         </li>
                         <li class="flex items-center">
-                            <i class="fas fa-check text-blue-600 mr-2"></i>
+                            <i class="fas fa-check text-yellow-600 mr-2"></i>
                             Fixed pricing
                         </li>
                     </ul>
-                    <a href="/#book" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-lg transition">
+                    <a href="/#book" class="inline-block bg-yellow-600 hover:bg-yellow-700 text-white font-semibold py-2 px-6 rounded-lg transition">
                         Book Now
                     </a>
                 </div>
@@ -53,19 +53,19 @@ include 'includes/header.php';
                     </p>
                     <ul class="space-y-2 text-gray-600 mb-4">
                         <li class="flex items-center">
-                            <i class="fas fa-check text-blue-600 mr-2"></i>
+                            <i class="fas fa-check text-yellow-600 mr-2"></i>
                             One-way & round trips
                         </li>
                         <li class="flex items-center">
-                            <i class="fas fa-check text-blue-600 mr-2"></i>
+                            <i class="fas fa-check text-yellow-600 mr-2"></i>
                             Multiple vehicle options
                         </li>
                         <li class="flex items-center">
-                            <i class="fas fa-check text-blue-600 mr-2"></i>
+                            <i class="fas fa-check text-yellow-600 mr-2"></i>
                             Driver allowance included
                         </li>
                     </ul>
-                    <a href="/#book" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-lg transition">
+                    <a href="/#book" class="inline-block bg-yellow-600 hover:bg-yellow-700 text-white font-semibold py-2 px-6 rounded-lg transition">
                         Book Now
                     </a>
                 </div>
@@ -83,19 +83,19 @@ include 'includes/header.php';
                     </p>
                     <ul class="space-y-2 text-gray-600 mb-4">
                         <li class="flex items-center">
-                            <i class="fas fa-check text-blue-600 mr-2"></i>
+                            <i class="fas fa-check text-yellow-600 mr-2"></i>
                             Point-to-point rides
                         </li>
                         <li class="flex items-center">
-                            <i class="fas fa-check text-blue-600 mr-2"></i>
+                            <i class="fas fa-check text-yellow-600 mr-2"></i>
                             Hourly packages
                         </li>
                         <li class="flex items-center">
-                            <i class="fas fa-check text-blue-600 mr-2"></i>
+                            <i class="fas fa-check text-yellow-600 mr-2"></i>
                             Instant booking
                         </li>
                     </ul>
-                    <a href="/#book" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-lg transition">
+                    <a href="/#book" class="inline-block bg-yellow-600 hover:bg-yellow-700 text-white font-semibold py-2 px-6 rounded-lg transition">
                         Book Now
                     </a>
                 </div>
@@ -113,19 +113,19 @@ include 'includes/header.php';
                     </p>
                     <ul class="space-y-2 text-gray-600 mb-4">
                         <li class="flex items-center">
-                            <i class="fas fa-check text-blue-600 mr-2"></i>
+                            <i class="fas fa-check text-yellow-600 mr-2"></i>
                             Premium vehicles
                         </li>
                         <li class="flex items-center">
-                            <i class="fas fa-check text-blue-600 mr-2"></i>
+                            <i class="fas fa-check text-yellow-600 mr-2"></i>
                             Professional chauffeurs
                         </li>
                         <li class="flex items-center">
-                            <i class="fas fa-check text-blue-600 mr-2"></i>
+                            <i class="fas fa-check text-yellow-600 mr-2"></i>
                             Complimentary amenities
                         </li>
                     </ul>
-                    <a href="/#book" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-lg transition">
+                    <a href="/#book" class="inline-block bg-yellow-600 hover:bg-yellow-700 text-white font-semibold py-2 px-6 rounded-lg transition">
                         Book Now
                     </a>
                 </div>
@@ -143,19 +143,19 @@ include 'includes/header.php';
                     </p>
                     <ul class="space-y-2 text-gray-600 mb-4">
                         <li class="flex items-center">
-                            <i class="fas fa-check text-blue-600 mr-2"></i>
+                            <i class="fas fa-check text-yellow-600 mr-2"></i>
                             4, 8, 12 hour packages
                         </li>
                         <li class="flex items-center">
-                            <i class="fas fa-check text-blue-600 mr-2"></i>
+                            <i class="fas fa-check text-yellow-600 mr-2"></i>
                             Multiple stops allowed
                         </li>
                         <li class="flex items-center">
-                            <i class="fas fa-check text-blue-600 mr-2"></i>
+                            <i class="fas fa-check text-yellow-600 mr-2"></i>
                             Flexible routes
                         </li>
                     </ul>
-                    <a href="/#book" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-lg transition">
+                    <a href="/#book" class="inline-block bg-yellow-600 hover:bg-yellow-700 text-white font-semibold py-2 px-6 rounded-lg transition">
                         Book Now
                     </a>
                 </div>
@@ -173,19 +173,19 @@ include 'includes/header.php';
                     </p>
                     <ul class="space-y-2 text-gray-600 mb-4">
                         <li class="flex items-center">
-                            <i class="fas fa-check text-blue-600 mr-2"></i>
+                            <i class="fas fa-check text-yellow-600 mr-2"></i>
                             Corporate accounts
                         </li>
                         <li class="flex items-center">
-                            <i class="fas fa-check text-blue-600 mr-2"></i>
+                            <i class="fas fa-check text-yellow-600 mr-2"></i>
                             Monthly invoicing
                         </li>
                         <li class="flex items-center">
-                            <i class="fas fa-check text-blue-600 mr-2"></i>
+                            <i class="fas fa-check text-yellow-600 mr-2"></i>
                             Priority booking
                         </li>
                     </ul>
-                    <a href="/contact" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-lg transition">
+                    <a href="/contact" class="inline-block bg-yellow-600 hover:bg-yellow-700 text-white font-semibold py-2 px-6 rounded-lg transition">
                         Contact Us
                     </a>
                 </div>
@@ -204,42 +204,42 @@ include 'includes/header.php';
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             <div class="bg-white rounded-lg shadow-md p-6 text-center hover:shadow-lg transition">
-                <i class="fas fa-car text-blue-600 text-5xl mb-4"></i>
+                <i class="fas fa-car text-yellow-600 text-5xl mb-4"></i>
                 <h3 class="text-xl font-semibold mb-2">Sedan</h3>
                 <p class="text-gray-600 text-sm mb-3">4 Seater • AC • Comfortable</p>
-                <p class="text-blue-600 font-semibold">Perfect for city rides</p>
+                <p class="text-yellow-600 font-semibold">Perfect for city rides</p>
             </div>
             
             <div class="bg-white rounded-lg shadow-md p-6 text-center hover:shadow-lg transition">
-                <i class="fas fa-car text-blue-600 text-5xl mb-4"></i>
+                <i class="fas fa-car text-yellow-600 text-5xl mb-4"></i>
                 <h3 class="text-xl font-semibold mb-2">SUV</h3>
                 <p class="text-gray-600 text-sm mb-3">6-7 Seater • Spacious • AC</p>
-                <p class="text-blue-600 font-semibold">Great for families</p>
+                <p class="text-yellow-600 font-semibold">Great for families</p>
             </div>
             
             <div class="bg-white rounded-lg shadow-md p-6 text-center hover:shadow-lg transition">
-                <i class="fas fa-car text-blue-600 text-5xl mb-4"></i>
+                <i class="fas fa-car text-yellow-600 text-5xl mb-4"></i>
                 <h3 class="text-xl font-semibold mb-2">Hatchback</h3>
                 <p class="text-gray-600 text-sm mb-3">4 Seater • Compact • Economical</p>
-                <p class="text-blue-600 font-semibold">Budget-friendly option</p>
+                <p class="text-yellow-600 font-semibold">Budget-friendly option</p>
             </div>
             
             <div class="bg-white rounded-lg shadow-md p-6 text-center hover:shadow-lg transition">
-                <i class="fas fa-car text-blue-600 text-5xl mb-4"></i>
+                <i class="fas fa-car text-yellow-600 text-5xl mb-4"></i>
                 <h3 class="text-xl font-semibold mb-2">Luxury</h3>
                 <p class="text-gray-600 text-sm mb-3">Premium • Leather • Premium</p>
-                <p class="text-blue-600 font-semibold">For special occasions</p>
+                <p class="text-yellow-600 font-semibold">For special occasions</p>
             </div>
         </div>
     </div>
 </section>
 
 <!-- Call to Action -->
-<section class="py-16 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
+<section class="py-16 bg-gradient-to-r from-yellow-600 to-yellow-800 text-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 class="text-3xl md:text-4xl font-bold mb-4">Ready to Book Your Ride?</h2>
-        <p class="text-xl text-blue-100 mb-8">Experience the best taxi service today</p>
-        <a href="/#book" class="inline-block bg-white text-blue-600 hover:bg-gray-100 font-bold py-3 px-8 rounded-lg transition transform hover:scale-105">
+        <p class="text-xl text-yellow-100 mb-8">Experience the best taxi service today</p>
+        <a href="/#book" class="inline-block bg-white text-yellow-600 hover:bg-gray-100 font-bold py-3 px-8 rounded-lg transition transform hover:scale-105">
             Book Now
         </a>
     </div>

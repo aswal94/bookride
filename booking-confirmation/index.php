@@ -17,7 +17,7 @@ unset($_SESSION['booking_date']);
 ?>
 
 <!-- Confirmation Header -->
-<section class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
+<section class="bg-gradient-to-r from-yellow-600 to-yellow-800 text-white py-16">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div class="mb-6">
             <div class="bg-white bg-opacity-20 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
@@ -25,7 +25,7 @@ unset($_SESSION['booking_date']);
             </div>
         </div>
         <h1 class="text-4xl md:text-5xl font-bold mb-4">Enquiry Submitted Successfully!</h1>
-        <p class="text-xl text-blue-100">Thank you for choosing BookRide</p>
+        <p class="text-xl text-yellow-100">Thank you for choosing BookRide</p>
     </div>
 </section>
 
@@ -46,14 +46,14 @@ unset($_SESSION['booking_date']);
             </div>
         </div>
 
-        <div class="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8 rounded-r-lg">
+        <div class="bg-yellow-50 border-l-4 border-yellow-500 p-6 mb-8 rounded-r-lg">
             <div class="flex items-start">
                 <div class="flex-shrink-0">
-                    <i class="fas fa-phone text-blue-500 text-2xl"></i>
+                    <i class="fas fa-phone text-yellow-500 text-2xl"></i>
                 </div>
                 <div class="ml-3">
-                    <h3 class="text-lg font-semibold text-blue-800 mb-2">You Will Receive a Callback</h3>
-                    <p class="text-blue-700">
+                    <h3 class="text-lg font-semibold text-yellow-800 mb-2">You Will Receive a Callback</h3>
+                    <p class="text-yellow-700">
                         Our customer service team will call you within the next few hours to confirm your booking details and provide you with the best quote.
                     </p>
                 </div>
@@ -66,7 +66,7 @@ unset($_SESSION['booking_date']);
             <div class="space-y-3">
                 <?php if (!empty($booking_name)): ?>
                 <div class="flex items-center">
-                    <i class="fas fa-user text-blue-600 mr-3 w-5"></i>
+                    <i class="fas fa-user text-yellow-600 mr-3 w-5"></i>
                     <div>
                         <span class="text-gray-600">Name:</span>
                         <span class="text-gray-900 font-semibold ml-2"><?php echo htmlspecialchars($booking_name); ?></span>
@@ -76,7 +76,7 @@ unset($_SESSION['booking_date']);
                 
                 <?php if (!empty($booking_phone)): ?>
                 <div class="flex items-center">
-                    <i class="fas fa-phone text-blue-600 mr-3 w-5"></i>
+                    <i class="fas fa-phone text-yellow-600 mr-3 w-5"></i>
                     <div>
                         <span class="text-gray-600">Phone:</span>
                         <span class="text-gray-900 font-semibold ml-2"><?php echo htmlspecialchars($booking_phone); ?></span>
@@ -86,7 +86,7 @@ unset($_SESSION['booking_date']);
                 
                 <?php if (!empty($booking_pickup)): ?>
                 <div class="flex items-center">
-                    <i class="fas fa-map-marker-alt text-blue-600 mr-3 w-5"></i>
+                    <i class="fas fa-map-marker-alt text-yellow-600 mr-3 w-5"></i>
                     <div>
                         <span class="text-gray-600">Pickup Location:</span>
                         <span class="text-gray-900 font-semibold ml-2"><?php echo htmlspecialchars($booking_pickup); ?></span>
@@ -96,7 +96,7 @@ unset($_SESSION['booking_date']);
                 
                 <?php if (!empty($booking_date)): ?>
                 <div class="flex items-center">
-                    <i class="fas fa-calendar text-blue-600 mr-3 w-5"></i>
+                    <i class="fas fa-calendar text-yellow-600 mr-3 w-5"></i>
                     <div>
                         <span class="text-gray-600">Date:</span>
                         <span class="text-gray-900 font-semibold ml-2"><?php echo date('F j, Y', strtotime($booking_date)); ?></span>
@@ -111,8 +111,8 @@ unset($_SESSION['booking_date']);
             <h2 class="text-xl font-bold text-gray-900 mb-4">What Happens Next?</h2>
             <div class="space-y-4">
                 <div class="flex items-start">
-                    <div class="flex-shrink-0 bg-blue-100 rounded-full p-2">
-                        <span class="text-blue-600 font-bold">1</span>
+                    <div class="flex-shrink-0 bg-yellow-100 rounded-full p-2">
+                        <span class="text-yellow-600 font-bold">1</span>
                     </div>
                     <div class="ml-4">
                         <h3 class="font-semibold text-gray-900">Our Team Reviews Your Request</h3>
@@ -120,8 +120,8 @@ unset($_SESSION['booking_date']);
                     </div>
                 </div>
                 <div class="flex items-start">
-                    <div class="flex-shrink-0 bg-blue-100 rounded-full p-2">
-                        <span class="text-blue-600 font-bold">2</span>
+                    <div class="flex-shrink-0 bg-yellow-100 rounded-full p-2">
+                        <span class="text-yellow-600 font-bold">2</span>
                     </div>
                     <div class="ml-4">
                         <h3 class="font-semibold text-gray-900">You Receive a Callback</h3>
@@ -129,8 +129,8 @@ unset($_SESSION['booking_date']);
                     </div>
                 </div>
                 <div class="flex items-start">
-                    <div class="flex-shrink-0 bg-blue-100 rounded-full p-2">
-                        <span class="text-blue-600 font-bold">3</span>
+                    <div class="flex-shrink-0 bg-yellow-100 rounded-full p-2">
+                        <span class="text-yellow-600 font-bold">3</span>
                     </div>
                     <div class="ml-4">
                         <h3 class="font-semibold text-gray-900">Booking Confirmed</h3>
@@ -141,10 +141,10 @@ unset($_SESSION['booking_date']);
         </div>
 
         <div class="text-center space-y-4">
-            <div class="bg-blue-50 rounded-lg p-6">
+            <div class="bg-yellow-50 rounded-lg p-6">
                 <h3 class="text-lg font-semibold text-gray-900 mb-2">Need Immediate Assistance?</h3>
                 <p class="text-gray-600 mb-4">Call us directly for instant booking</p>
-                <a href="tel:+919258002554" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition transform hover:scale-105">
+                <a href="tel:+919258002554" class="inline-block bg-yellow-600 hover:bg-yellow-700 text-white font-bold py-3 px-8 rounded-lg transition transform hover:scale-105">
                     <i class="fas fa-phone mr-2"></i>(+91)925 800 2554
                 </a>
             </div>
@@ -153,7 +153,7 @@ unset($_SESSION['booking_date']);
                 <a href="/" class="inline-block bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-3 px-8 rounded-lg transition">
                     <i class="fas fa-home mr-2"></i>Back to Home
                 </a>
-                <a href="/service" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition">
+                <a href="/service" class="inline-block bg-yellow-600 hover:bg-yellow-700 text-white font-semibold py-3 px-8 rounded-lg transition">
                     <i class="fas fa-car mr-2"></i>View Services
                 </a>
             </div>

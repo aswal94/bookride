@@ -24,10 +24,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <style>
                 body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
                 .container { max-width: 600px; margin: 0 auto; padding: 20px; }
-                .header { background-color: #2563eb; color: white; padding: 20px; text-align: center; }
+                .header { background-color: #eab308; color: white; padding: 20px; text-align: center; }
                 .content { background-color: #f9fafb; padding: 20px; }
                 .field { margin-bottom: 15px; }
-                .label { font-weight: bold; color: #2563eb; }
+                .label { font-weight: bold; color: #eab308; }
                 .value { margin-top: 5px; }
             </style>
         </head>
@@ -86,7 +86,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <html>
             <body style='font-family: Arial, sans-serif; line-height: 1.6; color: #333;'>
                 <div style='max-width: 600px; margin: 0 auto; padding: 20px;'>
-                    <div style='background-color: #2563eb; color: white; padding: 20px; text-align: center;'>
+                    <div style='background-color: #eab308; color: white; padding: 20px; text-align: center;'>
                         <h2>Thank You for Contacting BookRide</h2>
                     </div>
                     <div style='background-color: #f9fafb; padding: 20px;'>
@@ -113,10 +113,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ?>
 
 <!-- Page Header -->
-<section class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
+<section class="bg-gradient-to-r from-yellow-600 to-yellow-800 text-white py-16">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 class="text-4xl md:text-5xl font-bold mb-4">Contact Us</h1>
-        <p class="text-xl text-blue-100">We're here to help! Get in touch with us</p>
+        <p class="text-xl text-yellow-100">We're here to help! Get in touch with us</p>
     </div>
 </section>
 
@@ -139,7 +139,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             Full Name <span class="text-red-500">*</span>
                         </label>
                         <input type="text" id="name" name="name" required
-                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent text-gray-900"
+                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-600 focus:border-transparent text-gray-900"
                             placeholder="Enter your full name">
                     </div>
                     
@@ -149,7 +149,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                 Email <span class="text-red-500">*</span>
                             </label>
                             <input type="email" id="email" name="email" required
-                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent text-gray-900"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-600 focus:border-transparent text-gray-900"
                                 placeholder="your@email.com">
                         </div>
                         
@@ -158,7 +158,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                 Phone Number
                             </label>
                             <input type="tel" id="phone" name="phone"
-                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent text-gray-900"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-600 focus:border-transparent text-gray-900"
                                 placeholder="+91 123-456-7890">
                         </div>
                     </div>
@@ -168,7 +168,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             Subject
                         </label>
                         <input type="text" id="subject" name="subject"
-                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent text-gray-900"
+                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-600 focus:border-transparent text-gray-900"
                             placeholder="What is this regarding?">
                     </div>
                     
@@ -177,11 +177,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             Message <span class="text-red-500">*</span>
                         </label>
                         <textarea id="message" name="message" rows="6" required
-                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent text-gray-900"
+                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-600 focus:border-transparent text-gray-900"
                             placeholder="Tell us how we can help you..."></textarea>
                     </div>
                     
-                    <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition transform hover:scale-105">
+                    <button type="submit" class="w-full bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-3 px-6 rounded-lg transition transform hover:scale-105">
                         <i class="fas fa-paper-plane mr-2"></i>Send Message
                     </button>
                 </form>
@@ -200,12 +200,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <div class="space-y-6">
                     <!-- Phone -->
                     <div class="flex items-start space-x-4">
-                        <div class="bg-blue-100 p-4 rounded-lg">
-                            <i class="fas fa-phone text-blue-600 text-2xl"></i>
+                        <div class="bg-yellow-100 p-4 rounded-lg">
+                            <i class="fas fa-phone text-yellow-600 text-2xl"></i>
                         </div>
                         <div>
                             <h3 class="text-xl font-semibold mb-1">Phone</h3>
-                            <a href="tel:+911234567890" class="text-blue-600 hover:text-blue-700 font-medium">
+                            <a href="tel:+911234567890" class="text-yellow-600 hover:text-yellow-700 font-medium">
                             (+91)925 800 2554
                             </a>
                         </div>
@@ -213,12 +213,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     
                     <!-- Email -->
                     <div class="flex items-start space-x-4">
-                        <div class="bg-blue-100 p-4 rounded-lg">
-                            <i class="fas fa-envelope text-blue-600 text-2xl"></i>
+                        <div class="bg-yellow-100 p-4 rounded-lg">
+                            <i class="fas fa-envelope text-yellow-600 text-2xl"></i>
                         </div>
                         <div>
                             <h3 class="text-xl font-semibold mb-1">Email</h3>
-                            <a href="mailto:info@bookride.in" class="text-blue-600 hover:text-blue-700 font-medium">
+                            <a href="mailto:info@bookride.in" class="text-yellow-600 hover:text-yellow-700 font-medium">
                                 info@bookride.in
                             </a>
                         </div>
@@ -226,8 +226,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     
                     <!-- Address -->
                     <div class="flex items-start space-x-4">
-                        <div class="bg-blue-100 p-4 rounded-lg">
-                            <i class="fas fa-map-marker-alt text-blue-600 text-2xl"></i>
+                        <div class="bg-yellow-100 p-4 rounded-lg">
+                            <i class="fas fa-map-marker-alt text-yellow-600 text-2xl"></i>
                         </div>
                         <div>
                             <h3 class="text-xl font-semibold mb-1">Address</h3>

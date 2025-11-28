@@ -4,10 +4,10 @@ include 'includes/header.php';
 ?>
 
 <!-- Page Header -->
-<section class="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16">
+<section class="bg-gradient-to-r from-yellow-600 to-yellow-800 text-white py-16">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 class="text-4xl md:text-5xl font-bold mb-4">About BookRide</h1>
-        <p class="text-xl text-blue-100">Your trusted partner in transportation</p>
+        <p class="text-xl text-yellow-100">Your trusted partner in transportation</p>
     </div>
 </section>
 
@@ -32,20 +32,20 @@ include 'includes/header.php';
             </div>
         </div>
         <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
-            <div class="bg-blue-50 rounded-lg p-6 text-center">
-                <div class="text-4xl font-bold text-blue-600 mb-2">2015</div>
+            <div class="bg-yellow-50 rounded-lg p-6 text-center">
+                <div class="text-4xl font-bold text-yellow-600 mb-2">2015</div>
                 <div class="text-gray-600">Established</div>
             </div>
-            <div class="bg-blue-50 rounded-lg p-6 text-center">
-                <div class="text-4xl font-bold text-blue-600 mb-2">10K+</div>
+            <div class="bg-yellow-50 rounded-lg p-6 text-center">
+                <div class="text-4xl font-bold text-yellow-600 mb-2">10K+</div>
                 <div class="text-gray-600">Customers</div>
             </div>
-            <div class="bg-blue-50 rounded-lg p-6 text-center">
-                <div class="text-4xl font-bold text-blue-600 mb-2">500+</div>
+            <div class="bg-yellow-50 rounded-lg p-6 text-center">
+                <div class="text-4xl font-bold text-yellow-600 mb-2">500+</div>
                 <div class="text-gray-600">Vehicles</div>
             </div>
-            <div class="bg-blue-50 rounded-lg p-6 text-center">
-                <div class="text-4xl font-bold text-blue-600 mb-2">50+</div>
+            <div class="bg-yellow-50 rounded-lg p-6 text-center">
+                <div class="text-4xl font-bold text-yellow-600 mb-2">50+</div>
                 <div class="text-gray-600">Cities</div>
             </div>
         </div>
@@ -62,8 +62,8 @@ include 'includes/header.php';
         
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div class="bg-white p-8 rounded-lg shadow-md">
-                <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mb-4">
-                    <i class="fas fa-shield-alt text-blue-600 text-2xl"></i>
+                <div class="bg-yellow-100 w-16 h-16 rounded-full flex items-center justify-center mb-4">
+                    <i class="fas fa-shield-alt text-yellow-600 text-2xl"></i>
                 </div>
                 <h3 class="text-xl font-semibold mb-3">Safety First</h3>
                 <p class="text-gray-600">
@@ -72,8 +72,8 @@ include 'includes/header.php';
             </div>
             
             <div class="bg-white p-8 rounded-lg shadow-md">
-                <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mb-4">
-                    <i class="fas fa-heart text-blue-600 text-2xl"></i>
+                <div class="bg-yellow-100 w-16 h-16 rounded-full flex items-center justify-center mb-4">
+                    <i class="fas fa-heart text-yellow-600 text-2xl"></i>
                 </div>
                 <h3 class="text-xl font-semibold mb-3">Customer Focus</h3>
                 <p class="text-gray-600">
@@ -82,8 +82,8 @@ include 'includes/header.php';
             </div>
             
             <div class="bg-white p-8 rounded-lg shadow-md">
-                <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mb-4">
-                    <i class="fas fa-award text-blue-600 text-2xl"></i>
+                <div class="bg-yellow-100 w-16 h-16 rounded-full flex items-center justify-center mb-4">
+                    <i class="fas fa-award text-yellow-600 text-2xl"></i>
                 </div>
                 <h3 class="text-xl font-semibold mb-3">Excellence</h3>
                 <p class="text-gray-600">
@@ -103,8 +103,8 @@ include 'includes/header.php';
         
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div class="flex items-start space-x-4">
-                <div class="bg-blue-100 p-3 rounded-lg">
-                    <i class="fas fa-check-circle text-blue-600 text-2xl"></i>
+                <div class="bg-yellow-100 p-3 rounded-lg">
+                    <i class="fas fa-check-circle text-yellow-600 text-2xl"></i>
                 </div>
                 <div>
                     <h3 class="text-xl font-semibold mb-2">Verified Drivers</h3>
@@ -113,8 +113,8 @@ include 'includes/header.php';
             </div>
             
             <div class="flex items-start space-x-4">
-                <div class="bg-blue-100 p-3 rounded-lg">
-                    <i class="fas fa-check-circle text-blue-600 text-2xl"></i>
+                <div class="bg-yellow-100 p-3 rounded-lg">
+                    <i class="fas fa-check-circle text-yellow-600 text-2xl"></i>
                 </div>
                 <div>
                     <h3 class="text-xl font-semibold mb-2">Well-Maintained Fleet</h3>
@@ -123,8 +123,8 @@ include 'includes/header.php';
             </div>
             
             <div class="flex items-start space-x-4">
-                <div class="bg-blue-100 p-3 rounded-lg">
-                    <i class="fas fa-check-circle text-blue-600 text-2xl"></i>
+                <div class="bg-yellow-100 p-3 rounded-lg">
+                    <i class="fas fa-check-circle text-yellow-600 text-2xl"></i>
                 </div>
                 <div>
                     <h3 class="text-xl font-semibold mb-2">Transparent Pricing</h3>
@@ -133,8 +133,8 @@ include 'includes/header.php';
             </div>
             
             <div class="flex items-start space-x-4">
-                <div class="bg-blue-100 p-3 rounded-lg">
-                    <i class="fas fa-check-circle text-blue-600 text-2xl"></i>
+                <div class="bg-yellow-100 p-3 rounded-lg">
+                    <i class="fas fa-check-circle text-yellow-600 text-2xl"></i>
                 </div>
                 <div>
                     <h3 class="text-xl font-semibold mb-2">24/7 Support</h3>
@@ -143,8 +143,8 @@ include 'includes/header.php';
             </div>
             
             <div class="flex items-start space-x-4">
-                <div class="bg-blue-100 p-3 rounded-lg">
-                    <i class="fas fa-check-circle text-blue-600 text-2xl"></i>
+                <div class="bg-yellow-100 p-3 rounded-lg">
+                    <i class="fas fa-check-circle text-yellow-600 text-2xl"></i>
                 </div>
                 <div>
                     <h3 class="text-xl font-semibold mb-2">Easy Booking</h3>

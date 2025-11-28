@@ -6,6 +6,7 @@
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name']) && isset($_POST['number']) && isset($_POST['pickup']) && isset($_POST['date'])) {
     require_once __DIR__ . '/send_email.php';
+    require_once __DIR__ . '/send_discord.php';
     require_once __DIR__ . '/../config/email_config.php';
     
     $name = htmlspecialchars($_POST['name'] ?? '');
@@ -64,6 +65,42 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['name']) && isset($_PO
             $email_body,
             SMTP_FROM_EMAIL,
             SMTP_FROM_NAME
+        );
+        
+        // Send booking details to Discord
+        $discord_fields = [
+            [
+                'name' => '👤 Name',
+                'value' => $name,
+                'inline' => true
+            ],
+            [
+                'name' => '📞 Phone',
+                'value' => $phone,
+                'inline' => true
+            ],
+            [
+                'name' => '📍 Pickup Location',
+                'value' => $pickup,
+                'inline' => false
+            ],
+            [
+                'name' => '📅 Date',
+                'value' => date('F j, Y', strtotime($date)),
+                'inline' => true
+            ],
+            [
+                'name' => '⏰ Time',
+                'value' => date('H:i:s'),
+                'inline' => true
+            ]
+        ];
+        
+        sendToDiscord(
+            '🚕 New Booking Request',
+            'A new booking enquiry has been received!',
+            $discord_fields,
+            16776960 // Yellow color
         );
         
         // Store booking details in session for confirmation page

@@ -14,5 +14,10 @@ define('SMTP_ENCRYPTION', 'tls'); // Encryption type: 'tls', 'ssl', or '' for no
 // Enable/Disable email sending (set to false for testing)
 define('SMTP_ENABLED', true);
 
+// Discord Webhook Configuration
+// Get your webhook URL from Discord: Server Settings > Integrations > Webhooks > New Webhook
+define('DISCORD_WEBHOOK_URL', 'https://discord.com/api/webhooks/1443902677644738642/MqgXVsxK9kon_mymqn0hT3oCIPDmJXqigvXjLmBGFjGhvILJBzHIT34wFlwiTmb494P0'); // Replace with your Discord webhook URL
+define('DISCORD_ENABLED', true); // Set to false to disable Discord notifications
+
 ?>
 

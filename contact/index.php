@@ -1,6 +1,8 @@
 <?php 
 $pageTitle = "Contact Us";
 include '../includes/header.php'; 
+require_once '../includes/send_email.php';
+require_once '../config/email_config.php';
 
 // Handle form submission
 $message = '';
@@ -10,14 +12,99 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name = htmlspecialchars($_POST['name'] ?? '');
     $email = htmlspecialchars($_POST['email'] ?? '');
     $phone = htmlspecialchars($_POST['phone'] ?? '');
-    $subject = htmlspecialchars($_POST['subject'] ?? '');
+    $subject_input = htmlspecialchars($_POST['subject'] ?? '');
     $message_content = htmlspecialchars($_POST['message'] ?? '');
     
     if (!empty($name) && !empty($email) && !empty($message_content)) {
-        // Here you would typically send an email or save to database
-        // For now, we'll just show a success message
-        $message = 'Thank you for contacting us! We will get back to you soon.';
-        $messageType = 'success';
+        // Prepare email content
+        $email_subject = !empty($subject_input) ? $subject_input : 'Contact Form Submission from BookRide';
+        $email_body = "
+        <html>
+        <head>
+            <style>
+                body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+                .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+                .header { background-color: #2563eb; color: white; padding: 20px; text-align: center; }
+                .content { background-color: #f9fafb; padding: 20px; }
+                .field { margin-bottom: 15px; }
+                .label { font-weight: bold; color: #2563eb; }
+                .value { margin-top: 5px; }
+            </style>
+        </head>
+        <body>
+            <div class='container'>
+                <div class='header'>
+                    <h2>New Contact Form Submission</h2>
+                </div>
+                <div class='content'>
+                    <div class='field'>
+                        <div class='label'>Name:</div>
+                        <div class='value'>{$name}</div>
+                    </div>
+                    <div class='field'>
+                        <div class='label'>Email:</div>
+                        <div class='value'>{$email}</div>
+                    </div>
+                    " . (!empty($phone) ? "
+                    <div class='field'>
+                        <div class='label'>Phone:</div>
+                        <div class='value'>{$phone}</div>
+                    </div>
+                    " : "") . "
+                    " . (!empty($subject_input) ? "
+                    <div class='field'>
+                        <div class='label'>Subject:</div>
+                        <div class='value'>{$subject_input}</div>
+                    </div>
+                    " : "") . "
+                    <div class='field'>
+                        <div class='label'>Message:</div>
+                        <div class='value'>" . nl2br($message_content) . "</div>
+                    </div>
+                </div>
+            </div>
+        </body>
+        </html>
+        ";
+        
+        // Send email
+        $result = sendSMTPEmail(
+            SMTP_TO_EMAIL,
+            $email_subject,
+            $email_body,
+            SMTP_FROM_EMAIL,
+            SMTP_FROM_NAME
+        );
+        
+        if ($result['success']) {
+            $message = 'Thank you for contacting us! We have received your message and will get back to you soon.';
+            $messageType = 'success';
+            
+            // Optionally send auto-reply to user
+            $auto_reply_subject = 'Thank you for contacting BookRide';
+            $auto_reply_body = "
+            <html>
+            <body style='font-family: Arial, sans-serif; line-height: 1.6; color: #333;'>
+                <div style='max-width: 600px; margin: 0 auto; padding: 20px;'>
+                    <div style='background-color: #2563eb; color: white; padding: 20px; text-align: center;'>
+                        <h2>Thank You for Contacting BookRide</h2>
+                    </div>
+                    <div style='background-color: #f9fafb; padding: 20px;'>
+                        <p>Dear {$name},</p>
+                        <p>Thank you for reaching out to us. We have received your message and our team will review it shortly.</p>
+                        <p>We typically respond within 24 hours. If your inquiry is urgent, please call us at (+91)925 800 2554.</p>
+                        <p>Best regards,<br>The BookRide Team</p>
+                    </div>
+                </div>
+            </body>
+            </html>
+            ";
+            
+            sendSMTPEmail($email, $auto_reply_subject, $auto_reply_body, SMTP_FROM_EMAIL, SMTP_FROM_NAME);
+        } else {
+            $message = 'Thank you for your message. However, there was an issue sending your email. Please try calling us at (+91)925 800 2554 or email us directly at info@bookride.in';
+            $messageType = 'error';
+        }
     } else {
         $message = 'Please fill in all required fields.';
         $messageType = 'error';
@@ -52,7 +139,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             Full Name <span class="text-red-500">*</span>
                         </label>
                         <input type="text" id="name" name="name" required
-                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent text-gray-900"
                             placeholder="Enter your full name">
                     </div>
                     
@@ -62,7 +149,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                 Email <span class="text-red-500">*</span>
                             </label>
                             <input type="email" id="email" name="email" required
-                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent text-gray-900"
                                 placeholder="your@email.com">
                         </div>
                         
@@ -71,7 +158,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                 Phone Number
                             </label>
                             <input type="tel" id="phone" name="phone"
-                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent text-gray-900"
                                 placeholder="+91 123-456-7890">
                         </div>
                     </div>
@@ -81,7 +168,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             Subject
                         </label>
                         <input type="text" id="subject" name="subject"
-                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent text-gray-900"
                             placeholder="What is this regarding?">
                     </div>
                     
@@ -90,7 +177,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             Message <span class="text-red-500">*</span>
                         </label>
                         <textarea id="message" name="message" rows="6" required
-                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent"
+                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent text-gray-900"
                             placeholder="Tell us how we can help you..."></textarea>
                     </div>
                     

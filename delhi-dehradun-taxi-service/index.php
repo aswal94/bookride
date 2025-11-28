@@ -1,6 +1,6 @@
 <?php 
 $pageTitle = "Home";
-include 'includes/header.php'; 
+include '../includes/header.php'; 
 ?>
 
 <!-- Hero Section with Booking Form -->
@@ -16,7 +16,7 @@ include 'includes/header.php';
                     Book Your Ride <br> Anytime, Anywhere
                 </h1>
                 <p class="text-xl mb-8 text-blue-100">
-                    Safe, reliable, and affordable taxi services at your doorstep. Experience comfort like never before.
+                    Delhi to Dehradun, Rishikesh, Haridwar Taxi Service
                 </p>
                 <div class="flex flex-wrap gap-4">
                     <div class="flex items-center space-x-2">
@@ -180,5 +180,5 @@ include 'includes/header.php';
 </section>
 
 
-<?php include 'includes/footer.php'; ?>
+<?php include '../includes/footer.php'; ?>
 

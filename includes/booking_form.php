@@ -44,7 +44,7 @@
         </div>
         
         <button type="submit" class="w-full bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-3 px-6 rounded-lg transition transform hover:scale-105">
-            <i class="fas fa-search mr-2"></i>Search Rides
+            <i class="fas fa-search mr-2"></i>Submit Enquiry
         </button>
     </form>
 </div>

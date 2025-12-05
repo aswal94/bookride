@@ -1,7 +1,7 @@
 <?php 
 session_start();
 require_once '../includes/process_booking.php';
-$pageTitle = "Delhi Dehradun Taxi Service";
+$pageTitle = "Book Ride | Taxi Booking Services - Delhi To Dehradun ";
 include '../includes/header.php'; 
 ?>
 

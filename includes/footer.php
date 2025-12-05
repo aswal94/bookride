@@ -59,6 +59,24 @@
             </div>
         </div>
     </footer>
+
+    <!-- Mobile Floating Action Buttons (WhatsApp & Call) -->
+    <div class="fixed bottom-6 left-4 right-4 md:hidden z-50 flex justify-between items-end pointer-events-none">
+        <!-- WhatsApp Button (Left) -->
+        <a href="https://wa.me/919258002554?text=Hello%2C%20I%20would%20like%20to%20book%20a%20ride" 
+           target="_blank" 
+           rel="noopener noreferrer"
+           class="bg-green-500 hover:bg-green-600 text-white rounded-full p-4 shadow-lg hover:shadow-xl transition-all duration-300 pointer-events-auto flex items-center justify-center w-14 h-14 animate-bounce">
+            <i class="fab fa-whatsapp text-2xl"></i>
+        </a>
+        
+        <!-- Call Button (Right) -->
+        <a href="tel:+919258002554" 
+           class="bg-yellow-600 hover:bg-yellow-700 text-white rounded-full p-4 shadow-lg hover:shadow-xl transition-all duration-300 pointer-events-auto flex items-center justify-center w-14 h-14 animate-bounce"
+           style="animation-delay: 0.2s;">
+            <i class="fas fa-phone text-xl"></i>
+        </a>
+    </div>
 </body>
 </html>
 

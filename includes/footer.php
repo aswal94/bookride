@@ -61,7 +61,7 @@
     </footer>
 
     <!-- Mobile Floating Action Buttons (WhatsApp & Call) -->
-    <div class="fixed bottom-6 left-4 right-4 md:hidden z-50 flex justify-between items-end pointer-events-none">
+    <div class="fixed bottom-6 left-4 right-4  z-50 flex justify-between items-end pointer-events-none">
         <!-- WhatsApp Button (Left) -->
         <a href="https://wa.me/919258002554?text=Hello%2C%20I%20would%20like%20to%20book%20a%20ride" 
            target="_blank" 
